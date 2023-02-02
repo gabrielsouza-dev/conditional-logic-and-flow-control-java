@@ -9,7 +9,7 @@ public class RelationalOperators {
         char c = 'x';
         char c1 = 'y';
         String s = "So-And-So";
-        String s1 = "so-and-so";
+        String s1 = "So-And-So";
         String s2 = "so-And-so";
         boolean b = true;
         boolean b1 = false;
