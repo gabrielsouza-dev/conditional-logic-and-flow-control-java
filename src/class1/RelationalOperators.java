@@ -1,3 +1,4 @@
+package class1;
 public class RelationalOperators {
     public static void main(String[] args) throws Exception {
         //variable declaration
