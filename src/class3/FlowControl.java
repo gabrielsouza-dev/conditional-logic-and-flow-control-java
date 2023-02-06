@@ -177,13 +177,13 @@ public class FlowControl {
             case 1:
             case 2:
             case 3:
-                System.out.println("Certo");
+                System.out.println("Right");
                 break;
             case 4:
-                System.out.println("Errado");
+                System.out.println("Wrong");
                 break;
             case 5:
-                System.out.println("Talvez");
+                System.out.println("Perhaps");
                 break;
             default:
                 System.out.println("Indefinite Value");
