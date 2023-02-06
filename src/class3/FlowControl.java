@@ -2,56 +2,56 @@ package class3;
 
 public class FlowControl {
     public static void main(String[] args) {
-        ifFlecha();
-        ifSemFlecha();
-        ifFerias();
-        ifMenor();
+        ifArrow();
+        ifWithoutArrow();
+        ifVacation();
+        ifSmaller();
 
-        switchSemana();
-        switchNumero();
-        switchFerias();
+        switchWeek();
+        switchNumber();
+        switchVacation();
     }
 
-    private static void ifFlecha() {
+    private static void ifArrow() {
 
-        int mes = 20;
-        if (mes == 1) {
-            System.out.println("Janeiro");
+        int month = 20;
+        if (month == 1) {
+            System.out.println("January");
         } else {
-            if (mes == 2) {
-                System.out.println("Fevereiro");
+            if (month == 2) {
+                System.out.println("February");
             } else {
-                if (mes == 3) {
-                    System.out.println("Março");
+                if (month == 3) {
+                    System.out.println("March");
                 } else {
-                    if (mes == 4) {
-                        System.out.println("Abril");
+                    if (month == 4) {
+                        System.out.println("April");
                     } else {
-                        if (mes == 5) {
-                            System.out.println("Maio");
+                        if (month == 5) {
+                            System.out.println("May");
                         } else {
-                            if (mes == 6) {
-                                System.out.println("Junho");
+                            if (month == 6) {
+                                System.out.println("June");
                             } else {
-                                if (mes == 7) {
-                                    System.out.println("Julho");
+                                if (month == 7) {
+                                    System.out.println("July");
                                 } else {
-                                    if (mes == 8) {
-                                        System.out.println("Agosto");
+                                    if (month == 8) {
+                                        System.out.println("August");
                                     } else {
-                                        if (mes == 9) {
-                                            System.out.println("Setembro");
+                                        if (month == 9) {
+                                            System.out.println("September");
                                         } else {
-                                            if (mes == 10) {
-                                                System.out.println("Outubro");
+                                            if (month == 10) {
+                                                System.out.println("October");
                                             } else {
-                                                if (mes == 11) {
-                                                    System.out.println("Novembro");
+                                                if (month == 11) {
+                                                    System.out.println("November");
                                                 } else {
-                                                    if (mes == 12) {
-                                                    System.out.println("Dezembro");
+                                                    if (month == 12) {
+                                                        System.out.println("December");
                                                     } else {
-                                                        System.out.println("Mês indefinido");
+                                                        System.out.println("Indefinite Month");
                                                     }
                                                 }
                                             }
@@ -66,114 +66,114 @@ public class FlowControl {
         }
     }
 
-    private static void ifSemFlecha() {
+    private static void ifWithoutArrow() {
 
-        int mes = 9;
-        if (mes == 1) {
-            System.out.println("Janeiro");
-        } else if (mes == 2) {
-            System.out.println("Fevereiro");
-        } else if (mes == 3) {
-            System.out.println("Março");
-        } else if (mes == 4) {
-            System.out.println("Abril");
-        } else if (mes == 5) {
-            System.out.println("Maio");
-        } else if (mes == 6) {
-            System.out.println("Junho");
-        } else if (mes == 7) {
-            System.out.println("Julho");
-        } else if (mes == 8) {
-            System.out.println("Agosto");
-        } else if (mes == 9) {
-            System.out.println("Setembro");
-        } else if (mes == 10) {
-            System.out.println("Outubro");
-        } else if (mes == 11) {
-            System.out.println("Novembro");
+        int month = 9;
+        if (month == 1) {
+            System.out.println("January");
+        } else if (month == 2) {
+            System.out.println("February");
+        } else if (month == 3) {
+            System.out.println("March");
+        } else if (month == 4) {
+            System.out.println("April");
+        } else if (month == 5) {
+            System.out.println("May");
+        } else if (month == 6) {
+            System.out.println("June");
+        } else if (month == 7) {
+            System.out.println("July");
+        } else if (month == 8) {
+            System.out.println("August");
+        } else if (month == 9) {
+            System.out.println("September");
+        } else if (month == 10) {
+            System.out.println("October");
+        } else if (month == 11) {
+            System.out.println("November");
         } else {
-            System.out.println("Dezembro");
+            System.out.println("December");
         }
-//      } else if (mes == 12) {
-//            System.out.println("Dezembro");
+//      } else if (month == 12) {
+//            System.out.println("December");
 //      } else {
-//            System.out.println("Mês indefinido");
+//            System.out.println("Indefinite month");
 //      }
 
     }
 
-    private static void ifFerias() {
+    private static void ifVacation() {
 
-        String mes = "julho";
-        if (mes == "julho" || mes == "dezembro" || mes == "janeiro") {
-            System.out.println("Férias");
+        String month = "July";
+        if (month == "July" || month == "December" || month == "January") {
+            System.out.println("Vacation");
         }
     }
 
-    private static void ifMenor() {
+    private static void ifSmaller() {
 
-        double salarioMensal = 11893.58d;
-        double mediaSalario = 10500d;
+        double monthlySalary = 11893.58d;
+        double averageSalary = 10500d;
 
-        int quantidadeDependentes = 4;
-        int mediaDependentes = 2;
+        int amountDependents = 4;
+        int averageDependents = 2;
 
-        if ((salarioMensal < mediaSalario) && (quantidadeDependentes >= mediaDependentes)) {
-            System.out.println("Funcionário deve receber auxílio.");
+        if ((monthlySalary < averageSalary) && (amountDependents >= averageDependents)) {
+            System.out.println("Official must receive assistance.");
         }
 
-        boolean salarioBaixo = salarioMensal < mediaSalario;
-        boolean muitosDependentes = quantidadeDependentes >= mediaDependentes;
+        boolean lowSalary = monthlySalary < averageSalary;
+        boolean manyDependents = amountDependents >= averageDependents;
 
-        if ((salarioBaixo) && (muitosDependentes)) {
-            System.out.println("Funcionário deve receber auxílio.");
+        if ((lowSalary) && (manyDependents)) {
+            System.out.println("Official must receive assistance.");
         }
 
-        boolean recebeAuxilio = (salarioBaixo) && (muitosDependentes);
-        if (recebeAuxilio) {
-            System.out.println("Funcionário deve receber auxílio.");
+        boolean receivesAid = (lowSalary) && (manyDependents);
+        if (receivesAid) {
+            System.out.println("Official must receive assistance.");
         } else {
-            System.out.println("Funcionário não deve receber auxílio.");
+            System.out.println("Official should not receive assistance.");
         }
 
     }
 
-    private static void switchSemana() {
+    private static void switchWeek() {
 
-        String dia = "hjhgkh";
-        switch (dia){
-            case "Segunda":
+        String day = "hjhgkh";
+        switch (day){
+            case "Monday":
                 System.out.println(2);
                 break;
-            case "Terça":
+            case "Tuesday":
                 System.out.println(3);
                 break;
-            case "Quarta":
+            case "Wednesday":
                 System.out.println(4);
                 break;
-            case "Quinta":
+            case "Thursday":
                 System.out.println(5);
                 break;
-            case "Sexta":
+            case "Friday":
                 System.out.println(6);
                 break;
-            case "Sábado":
+            case "Saturday":
                 System.out.println(7);
                 break;
-            case "Domingo":
+            case "Sunday":
                 System.out.println(1);
                 break;
             default:
 //                System.out.println(1);
-                System.out.println("Dia inválido");
+                System.out.println("Invalid Day");
                 break;
         }
     }
 
-    private static void switchNumero() {
+    private static void switchNumber() {
 
-        int numero = 4;
-        switch (numero){
+        int number = 4;
+        switch (number){
             case 1:
             case 2:
             case 3:
@@ -186,22 +186,22 @@ public class FlowControl {
                 System.out.println("Talvez");
                 break;
             default:
-                System.out.println("Valor Indefinido");
+                System.out.println("Indefinite Value");
                 break;
         }
     }
 
-    private static void switchFerias() {
+    private static void switchVacation() {
 
-        String mes = "dezembro";
-        switch (mes) {
-            case "dezembro":
-            case "julho":
-            case "janeiro":
-                System.out.println("Férias");
+        String month = "December";
+        switch (month) {
+            case "December":
+            case "July":
+            case "January":
+                System.out.println("Vacation");
                 break;
             default:
-                System.out.println("Mês Indefinido");
+                System.out.println("Indefinite Month");
                 break;
         }
     }
